@@ -35,11 +35,7 @@ void draw()
      
        float r=red(img.pixels[loc]);
        float g=green(img.pixels[loc]);
-       float b=blue(img.pixels[loc]);
-       
-       //r=r*2;
-      //g=g*2;
-      // b=b*2;     
+       float b=blue(img.pixels[loc]);       
       
      
      if(r>100&&g<60&&b<60)
