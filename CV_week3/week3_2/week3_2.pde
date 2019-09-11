@@ -32,7 +32,7 @@ void draw()
        b*=adjustBrightness;
        
        //pixels[loc]=color(r,g,b);//normal color
-       pixels[loc]=color(0,g,0);//chang color
+       pixels[loc]=color(r,0,b);//chang color
        
       /* if(distance>100)
      {
