@@ -12,7 +12,7 @@ void setup()
   
   cam.start(); 
   
-  targetColor=color(255,0,0);
+  targetColor=0;
    
 }
 
@@ -46,14 +46,15 @@ void draw()
   
   //euclidean distance
   float d=dist(r1,g1,b1,r2,g2,b2); 
-    
+  
+      
   if(d<similarity)
 {
   similarity=d;
   closetX=x;
   closetY=y;
 }
-
+ 
 }//endForX
 }//endForY
 
@@ -65,6 +66,7 @@ if(similarity<10)//threshold
   //stroke(204,102,0);
 rect(closetX,closetY,50,50);  
 }
+
 
 }//end draw
 
