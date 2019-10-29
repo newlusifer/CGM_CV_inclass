@@ -19,6 +19,7 @@ public class sceneManager : MonoBehaviour
         if (gameOverEnd==1)
         {
             GameOver();
+            gameOverEnd = 0;
         }
     }
 
