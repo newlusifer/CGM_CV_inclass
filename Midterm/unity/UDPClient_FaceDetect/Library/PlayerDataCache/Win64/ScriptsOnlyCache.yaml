@@ -25,7 +25,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
     com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
     - UnityEngine.Networking.NetworkIdentity
   sceneClasses:
     Assets/Scenes/GameOver.unity:
@@ -260,7 +259,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11926}
     - Class: 114
-      Script: {instanceID: 19168}
+      Script: {instanceID: 18636}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -925,4 +924,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/title.unity
   - Assets/Scenes/MainGame.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: "D:/\u0E07\u0E32\u0E19/cgm_CV/CGM_CV_inclass/Midterm/unity/UDPClient_FaceDetect/build/version_1/UDPClient.exe"
+  playerPath: "D:/\u0E07\u0E32\u0E19/cgm_CV/CGM_CV_inclass/Midterm/unity/UDPClient_FaceDetect/build/version_2/UDPClient.exe"

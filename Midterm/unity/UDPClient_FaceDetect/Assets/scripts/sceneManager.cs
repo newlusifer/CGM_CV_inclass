@@ -39,4 +39,9 @@ public class sceneManager : MonoBehaviour
         SceneManager.LoadScene("MainGame");
     }
 
+    public void QuiteApp()
+    {
+        Application.Quit();
+    }
+
 }
