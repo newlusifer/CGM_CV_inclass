@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AQAvxpj/////AAAAmeC1xcqF9UQiiMg3/pbajgFZ0hq1z/LM8+PjEtVlvHfhTfHPLl613P9zawTMA7J/H4Q4lrshBtCmb7ysehRJXyqgoq2PYg7/QGbI1FAvdS3UTf+bYO9wHgFGRPoDyVyMPd9eh1uzwoyQ1dw17cJoFy/1mpgszrsejKfCOI9680oKkJrnsbO3Rv4+0Er38ji788zghiN9tdCB7V/0G6C9az9qoC1lEBRYNX8zRDmwWCrWOMBLFi6NoYuQSG2WSaR27nyKrIfuUIHVoWKaXZnNXfWZulsPkngBhBKzpQuY6MTtlguh5ijO3EQygQiHyJfiClTQRPJNrfJwvyJ5ks/Gr1BXDL3MUpRCojZS54A6Lag1
+    ufoLicenseKey: QVZWQTdyWC8vLy8vQUFBQUtEZjNrc0FEYUVobXA1aVNyRG1RY25HSnFjVDBkeWgxbU1jdGdXMGdGeVZlVm1sVmZoK0FZK3FMYStyQzFHY2FjTGdYT1pOakpTM3BPeExmMWcra1BJYTluY0tFVEVVend6SXVpcWpzWFYreVJoRVpMbWI2c2xNbUtXRjc0bFhYd25QWGxmOE5BK1pJSGlMc0k5ai9pMXVGSDF6QVV5OHFUZ21aUzBNVjh1ZCs1YzNKT0VVRzZmWEcyYWNreG4vY3FGTU91dkxhNVdtRHlPaVU3cHVLMUorVEEwVGhJVy9hcS9VNVNTL2NHNnhaRVJKWklEYlF4QnVzckZoa20zc01XMi9NUlgwcTVxVnFjZmN0V09hS29iTkt5MGdLSld6QW9ndkkvckIrZmxYZTFZQUdNSmw5ZVNjWDBKQVIxdmlWYWw0VVVCVmlSbWJNZXM4S2xqeTA0Y0RYVkxGOVY4VlBmRlpLNWZrRnVvMGM=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
+    useDelayedLoadingObjectTargets: 0
+    modelTargetRecoWhileExtendedTracked: 1
+    version: 8.5.9
+    eulaAcceptedVersions: '{"Values":["8.5"]}'
+  database:
+    disableModelExtraction: 0
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    arcoreRequirement: 0
+    autoImportArcore: 0
+  smartTerrain:
+    autoInitTracker: 0
+    autoStartTracker: 0
+  webcam:
+    deviceNameSetInEditor: 
+    turnOffWebCam: 0
+    renderTextureLayer: 30

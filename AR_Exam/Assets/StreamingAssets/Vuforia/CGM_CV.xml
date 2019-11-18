@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="tera" size="1.000000 1.447917"/>
+        <ImageTarget name="CollonBox.Back" size="0.300000 0.380000"/>
+        <ImageTarget name="CollonBox.Right" size="0.130000 0.380000"/>
+        <ImageTarget name="CollonBox.Top" size="0.300000 0.130000"/>
+        <ImageTarget name="CollonBox.Left" size="0.130000 0.380000"/>
+        <ImageTarget name="CollonBox.Bottom" size="0.300000 0.130000"/>
+        <ImageTarget name="CollonBox.Front" size="0.300000 0.380000"/>
+        <MultiTarget name="CollonBox">
+            <Part name="CollonBox.Left" translation="-0.15000000596046448 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="CollonBox.Right" translation="0.15000000596046448 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="CollonBox.Front" translation="0 0 0.06499999761581421" rotation="AD: 1 0 0 0"/>
+            <Part name="CollonBox.Back" translation="0 0 -0.06499999761581421" rotation="AD: 0 1 0 180"/>
+            <Part name="CollonBox.Top" translation="0 0.1899999976158142 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="CollonBox.Bottom" translation="0 -0.1899999976158142 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
