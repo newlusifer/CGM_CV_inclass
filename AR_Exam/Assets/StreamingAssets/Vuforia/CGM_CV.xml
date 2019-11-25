@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
     <Tracking>
+        <CylinderTarget name="test2" sideLength="0.700000"/>
         <ImageTarget name="tera" size="1.000000 1.447917"/>
-        <ImageTarget name="CollonBox.Back" size="0.300000 0.380000"/>
         <ImageTarget name="CollonBox.Right" size="0.130000 0.380000"/>
         <ImageTarget name="CollonBox.Top" size="0.300000 0.130000"/>
-        <ImageTarget name="CollonBox.Left" size="0.130000 0.380000"/>
         <ImageTarget name="CollonBox.Bottom" size="0.300000 0.130000"/>
+        <ImageTarget name="CollonBox.Left" size="0.130000 0.380000"/>
+        <ImageTarget name="CollonBox.Back" size="0.300000 0.380000"/>
         <ImageTarget name="CollonBox.Front" size="0.300000 0.380000"/>
         <MultiTarget name="CollonBox">
             <Part name="CollonBox.Left" translation="-0.15000000596046448 0 0" rotation="AD: 0 1 0 -90"/>
